@@ -1,0 +1,17 @@
+Pizza Ordering System ~
+The system will the User to order pizza via the terminal of their choice.
+The User will be presented with Pizza types, any extra toppings and their prices.
+Prices will include of individual products and the sub-total.
+
+Classes ~
+    + User
+        -firstName
+        -surName
+        -eMail
+    + Pizza
+        -pizzaSize
+        -pizzaType
+    + OrderBasket
+        -currentOrder
+        -totalOrderCost
+        -printOrderSummary

@@ -1,0 +1,32 @@
+Pizza Ordering System ~
+The system will the User to order pizza via the terminal of their choice.
+The User will be presented with Pizza types, any extra toppings and their prices.
+Prices will include of individual products and the sub-total.
+
+Classes ~
+    + User
+        -firstName
+        -surName
+        -eMail
+    + Pizza
+        -pizzaSize
+        -pizzaType
+    + OrderBasket
+        -currentOrder
+        -totalOrderCost
+        -printOrderSummary
+
+Scenario ~
+1. User asked for their personal details such as name and email
+2. User prompted with a confirmation message whether details are correct
+3. User presented with Pizza sizes and Prices
+    3.1 User selects desired Pizza size
+    3.2 User prompted with confirmation for their choice
+4. User presented with House Pizza choices
+    4.1 User selects desired Pizza choice
+5. User prompted to choose whether they would like to order another pizza
+    5.1 User chooses whether to order another Pizza
+        5.1.1 User chooses another Pizza Size and House Pizza
+    5.2 User does not choose another Pizza and decides to checkout
+6. User presented with receipt (Pizza choices and Prices)
+
